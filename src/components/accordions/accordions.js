@@ -5,20 +5,20 @@ import { RiArrowDropDownLine } from 'react-icons/ri'
 
 const data = [
   {
-   question: 'What are accordion components?',
-   answer: 'Accordion components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.' ,
+   question: 'What is the average salary of employees?',
+   answer: 'The average salary is calculated based on the total salaries of all employees divided by the number of employees. This helps in understanding overall compensation trends.' ,
   },
   {
-   question: 'What are they used for?',
-   answer: 'They are commonly employed in various contexts, including FAQs, product descriptions, navigation menus, settings panels, and data tables, to save screen space and provide a structured and user-friendly interface for presenting information or options.',
+   question: 'How are promotions tracked?',
+   answer: 'Promotions are tracked by monitoring employee performance and achievements. Promoted employees are highlighted in the system for easy reference.',
   },
   {
-   question: 'Accordion as a musical instrument',
-   answer: 'The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres.',
+   question: 'How does the insurance process work?',
+   answer: 'Employees are insured based on their role and salary. The system ensures that all employees are accounted for and provides insights into active insurance policies',
   },
   {
-   question: 'Can I create an accordion component with a different framework?',
-   answer: 'Yes of course, it is very possible to create an accordion component with another framework.',
+   question: 'Can new employees be added manually?',
+   answer: 'Yes, you can add new employees using the input fields provided. Simply enter their name and salary, and they will be included in the database.',
   }
  ];
 

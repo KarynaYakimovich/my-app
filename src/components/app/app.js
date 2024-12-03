@@ -4,7 +4,6 @@ import EmployeesList from '../employees-list/employees-list';
 import EmployeesAddForm from '../employees-add-form/employees-add-form';
 import Coun from '../coun/coun';
 import Accordions  from '../accordions/accordions';
-import NameForm from '../input/input';
 import './app.css';
 
 
@@ -70,7 +69,6 @@ const App = () => {
       />
       <Coun />
       <Accordions/>
-      <NameForm />
     </div>
   );
 };
