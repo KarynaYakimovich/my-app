@@ -22,8 +22,6 @@ const data = [
   }
  ];
 
-
-
 //  accordionitem component
 const AccordionItem = ({question, answer, isOpen, onClick}) => {
   const contentHeight = useRef()
@@ -34,16 +32,15 @@ const AccordionItem = ({question, answer, isOpen, onClick}) => {
       <RiArrowDropDownLine className={`arrow ${isOpen ? 'active' : ''}`} /> 
      </button>
  
-      <div ref={contentHeight} className="answer-container" style={
-           isOpen
-           ? { height: contentHeight.current.scrollHeight }
-           : { height: "0px" }
-          }>
+      <div   ref={contentHeight}
+       className="answer-container"
+       style={{
+         height: isOpen ? `${contentHeight.current.scrollHeight}px` : '0px',
+       }}>
        <p className="answer-content">{answer}</p>
       </div>
     </div>
-   )
- }
+   )};
 
 // main Accordion component
 const Accordions = () => {

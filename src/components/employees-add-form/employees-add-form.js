@@ -14,7 +14,10 @@ const EmployeesAddForm = ({ onAdd }) => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        onAdd(formData.name, formData.salary);
+        if (!formData.name.trim() || !formData.salary.trim()){
+            return;
+        }
+        onAdd(formData.name, parseFloat(formData.salary));
         setFormData({ name: '', salary: '' });
     };
 

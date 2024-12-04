@@ -24,14 +24,14 @@ function minus () {
 }
     return (
         <div className='main'>
-        <button className='button' onClick={minus}>
+        <button className='button' onClick={minus} aria-label='decrement'>
           −
         </button>
         <div className='scrin'>
           <div className='scrin_wr'
           >{likes}</div>
         </div>
-        <button className='button' onClick={plus}>
+        <button className='button' onClick={plus} aria-label='increment'>
           +
         </button>
       </div>
